@@ -24,7 +24,7 @@ const Projects = () => {
             <h2 className='py-4'>What I&apos;ve Built</h2>
           </motion.div>
           <motion.div variants={zoomIn( 0, 1)}>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-8 items-center'>
+            <div className='grid md:grid-cols-3 gap-8 items-center'>
                 <ProjectItem title='Athletic Avenue' image={athletic} projectUrl='/athleticavenue'/>
                 <ProjectItem title='Djoggers' image={djoggers} projectUrl='/djoggers'/>
                 <ProjectItem title='CryptFund' image={cryptfund} projectUrl='/cryptfund'/>
