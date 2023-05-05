@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import AboutImg from '../public/assets/aboutpic.jpg';
+import AboutImg from '../public/static/assets/aboutpic.jpg';
 import Link from 'next/link';
 import { SectionWrapper } from '@/hoc';
 import { slideIn, fadeIn, zoomIn } from "../utils/motion";

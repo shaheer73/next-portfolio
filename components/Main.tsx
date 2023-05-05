@@ -13,7 +13,7 @@ const Main = () => {
             <div>
                 <p className='pt-5 uppercase text-md font-semibold tracking-widest'>Welcome to my Portfolio!</p>
                 <div className='items-center flex justify-center p-5'>
-                <Image src='/../public/assets/profile.jpg' alt='profile' width={350} height={350} className='rounded-full'/>
+                <Image src='/../public/static/assets/profile.jpg' alt='profile' width={350} height={350} className='rounded-full'/>
                 </div>
                 <h1>Hey! I&apos;m <span className='text-white'>Shaheer,</span></h1>
                 <h1 className="py-2 text-md"> {""}

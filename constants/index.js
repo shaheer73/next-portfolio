@@ -1,7 +1,7 @@
-  import discoverycrate from '../public/assets/company/discoverycrate.jpg';
-  import cxn from '../public/assets/company/cxnlogo.jpeg';
-  import ford from '../public/assets/company/ford.jpeg';
-  import waterloop from '../public/assets/company/waterloop.jpeg';
+  import discoverycrate from '../public/static/assets/company/discoverycrate.jpg';
+  import cxn from '../public/static/assets/company/cxnlogo.jpeg';
+  import ford from '../public/static/assets/company/ford.jpeg';
+  import waterloop from '../public/static/assets/company/waterloop.jpeg';
 
   const technologies = [
     {
