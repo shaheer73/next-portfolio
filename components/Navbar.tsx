@@ -4,8 +4,8 @@ import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { useRouter } from 'next/router';
-import whitelogo from '../public/assets/sh-white.png';
-import darklogo from '../public/assets/sh-black.png';
+import whitelogo from '../public/static/assets/sh-white.png';
+import darklogo from '../public/static/assets/sh-black.png';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
