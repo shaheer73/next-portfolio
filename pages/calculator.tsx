@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import calculatorImg from '../public/assets/projects/reactcalculatorpic.png';
+import calculatorImg from '../public/static/assets/projects/reactcalculatorpic.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

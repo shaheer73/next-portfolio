@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import trackerImg from '../public/assets/projects/basketballtrackerpic.png';
+import trackerImg from '../public/static/assets/projects/basketballtrackerpic.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

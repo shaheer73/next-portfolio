@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import realestate from '../public/assets/projects/realestate.png';
+import realestate from '../public/static/assets/projects/realestate.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

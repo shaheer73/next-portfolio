@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import transitImg from '../public/assets/projects/transitcodepic.png';
+import transitImg from '../public/static/assets/projects/transitcodepic.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

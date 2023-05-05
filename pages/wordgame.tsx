@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import wordgameImg from '../public/assets/projects/WordGamePic.png';
+import wordgameImg from '../public/static/assets/projects/WordGamePic.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

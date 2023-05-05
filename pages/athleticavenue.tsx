@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import athleticImg from '../public/assets/projects/athleticavenue.png';
+import athleticImg from '../public/static/assets/projects/athleticavenue.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

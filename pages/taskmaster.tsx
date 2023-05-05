@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import taskmasterImg from '../public/assets/projects/taskmaster.png';
+import taskmasterImg from '../public/static/assets/projects/taskmaster.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

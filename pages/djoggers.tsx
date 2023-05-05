@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import djoggers from '../public/assets/projects/djoggers.png';
+import djoggers from '../public/static/assets/projects/djoggers.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

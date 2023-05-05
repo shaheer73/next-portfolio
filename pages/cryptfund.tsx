@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptfundImg from '../public/assets/projects/cryptfund.png';
+import cryptfundImg from '../public/static/assets/projects/cryptfund.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
