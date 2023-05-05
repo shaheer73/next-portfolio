@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.PNG';
+import ContactImg from '../public/assets/contact.png';
 import { slideIn, fadeIn } from "../utils/motion";
 import { motion } from "framer-motion";
 import emailjs from 'emailjs-com';
