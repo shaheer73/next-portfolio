@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { useRouter } from 'next/router';
+import whitelogo from '../public/assets/sh-white.png';
+import darklogo from '../public/assets/sh-black.png';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -51,7 +53,7 @@ const Navbar = () => {
     <div className={shadow ? 'px-4 pt-2 pb-2 fixed w-full h-20 shadow-xl z-[100] bg-[#051923]' : 'pt-2 pb-2 px-4 fixed w-full h-20 z-[100]'}>
         <div className="flex justify-between items-center w-full h-full px-[8px] 2xl:px-[64px]">
             <Link href='/'>
-                {shadow||project ? <Image src="/../public/assets/sh-white.png" alt="logo" width='80' height='60'/> : <Image src="/../public/assets/sh-black.png" alt="logo" width='80' height='60'/>}
+                {shadow||project ? <Image src={whitelogo} alt="logo" width='80' height='60'/> : <Image src={darklogo} alt="logo" width='80' height='60'/>}
             </Link>
             <div>
                 <ul className={shadow||project ? 'hidden md:flex text-white' : 'hidden md:flex'}>
