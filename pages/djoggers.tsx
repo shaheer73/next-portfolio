@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const property = () => {
   return (
-    <div className='w-full h-screen bg-[#d9d9d9]'>
+    <div className='w-full h-full bg-[#d9d9d9]'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
@@ -67,14 +67,20 @@ const property = () => {
                 <RiRadioButtonFill className='pr-1' /> Vuex
               </p>
               <p className=' py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SCSS/SASS
+                <RiRadioButtonFill className='pr-1' /> Scss/Sass
               </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
+        <div className='flex flex-col'>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/FXQu3JIsEWE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"></iframe>
+
+          <div className='pt-10 pb-10'>
+            <Link href='/#projects'>
+              <p className='underline cursor-pointer'>Back</p>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

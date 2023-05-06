@@ -78,9 +78,15 @@ const property = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
+        <div className='flex flex-col'>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/INZrLkTNgNo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"></iframe>
+
+          <div className='pt-10 pb-10'>
+            <Link href='/#projects'>
+              <p className='underline cursor-pointer'>Back</p>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );
