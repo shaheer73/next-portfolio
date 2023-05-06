@@ -4,7 +4,6 @@ import Link from 'next/link';
 import profile from '../public/static/assets/profile.jpg';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
@@ -48,11 +47,6 @@ const Main = () => {
                             <AiOutlineMail />
                         </div>
                     </Link>
-                    <a href="/Resume2023.pdf" target='_blank' rel='noreferrer'>
-                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                            <BsFillPersonLinesFill />
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>

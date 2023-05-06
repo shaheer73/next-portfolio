@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/static/assets/contact.png';
@@ -79,16 +78,7 @@ const Contact = () => {
                     <div className='rounded-full shadow-lg shadow-gray-400 bg-white  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <AiOutlineMail />
                     </div>
-
-                    <a 
-                      href='/Resume2023.pdf'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                        <div className='rounded-full shadow-lg shadow-gray-400 bg-white  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <BsFillPersonLinesFill />
-                        </div>
-                    </a>
+                    
                   </div>
                 </div>
               </div>
