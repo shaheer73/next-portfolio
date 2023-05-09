@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const property = () => {
   return (
-    <div className='w-full h-[105vh] bg-[#d9d9d9]'>
+    <div className='w-full h-full bg-[#d9d9d9]'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
