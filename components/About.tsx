@@ -28,7 +28,9 @@ const About = () => {
                     <br></br>
                     One of my favourite hobbies is playing video games 🎮! Some of my favourite video games are FIFA, Call of Duty, and NBA 2K. I was able to work with Unity, which was really cool as I was able to see how game engines work and the development that goes into making video games. I love to go travelling ✈️ as well and have been to 🇺🇸🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇵🇰🇸🇦🇦🇪 and wish to see the rest of the world 🌎 one day. I love to learn about different cultures and immerse myself in their diversity. I am also a huge fan of music 🎧, some of my favourite genres are R&B, hip hop, and rap. Some of my favourite artists are Travis Scott, Dave, and The Weeknd. I would love to learn how to compose music myself and have previously played the tenor sax 🎷and am currently learning the piano 🎹.
                   </p>
-                  <Link href='/#projects'><p className='py-2 underline cursor-pointer text-gray-700'>Check out some of my latest projects!</p></Link>
+                  <Link href='/#projects'>
+                    <p className='py-2 underline cursor-pointer text-gray-700'>Check out some of my latest projects!</p>
+                  </Link>
                 </motion.div>
             </div>
             <motion.div variants={fadeIn("right", "spring", 0.75, 2)}>
