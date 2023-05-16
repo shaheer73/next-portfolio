@@ -27,7 +27,7 @@ const property = () => {
           <h2>Overview</h2>
           <br></br>
           <p>
-            Created a fully responseive sports blog app for friends and family to discuss about the latest sporting stories happening around the world.
+            Created a fully responsive sports blog app for friends and family to discuss about the latest sporting stories happening around the world.
             This app was built using NextJS to take advantage of techniques such as server-side rendering, static
             generation, and file-based routing. The application was entirely written in TypeScript. All the posts, comments, and user information is
             stored in a Sanity.io CMS, and GCP is used to maintain a database of 40+ users. I integrated OAuth to handle user authentication, where users
