@@ -61,7 +61,7 @@ const Skills = () => {
                             <div className='flex items-center justify-center text-center text-md'>
                                 <p> I first started coding in High School using Java and then learned C++ in my first semester
                                 of University. Since then I have gone on to learn a vast amount of languages and continue to seek more ways to improve my Programming
-                                skills. I am versatile and have experience with Python, C#, JavaScript/TypeScript, SQL, HTML and CSS. </p>
+                                skills. I am versatile and have experience with Python, PHP, C, C#, JavaScript/TypeScript, SQL, HTML and CSS. </p>
                             </div>
                         </div>
                     </div>

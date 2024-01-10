@@ -50,7 +50,7 @@ const Contact = () => {
                   <h2 className='py-2'>Shaheer Hasan</h2>
                   <p>Aspiring Software Engineer</p>
                   <p className='py-4'>
-                    I am available for a 4-month co-op from September 2023 to December 2023. Or, if there&apos;s anything you want to chat about whether it be sports or music - feel free to reach out!
+                    I am available for a 4-month co-op from May 2024 to August 2024. Or, if there&apos;s anything you want to chat about whether it be sports or music - feel free to reach out!
                   </p>
                 </div>
                 <div>

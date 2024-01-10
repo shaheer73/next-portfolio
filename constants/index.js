@@ -2,6 +2,8 @@
   import cxn from '../public/static/assets/company/cxnlogo.jpeg';
   import ford from '../public/static/assets/company/ford.jpeg';
   import waterloop from '../public/static/assets/company/waterloop.jpeg';
+  import reblink from '../public/static/assets/company/reblink.png';
+  import watstreet from '../public/static/assets/company/watstreet.jpeg';
 
   const technologies = [
     {
@@ -81,6 +83,31 @@
   const experiences = [
     {
       title: "Software Engineer Intern",
+      company_name: "ReBlink",
+      icon: reblink,
+      iconBg: "black",
+      date: "September 2023 - December 2023",
+      points: [
+        "Worked on building backend platform with the use of Laravel (PHP) from end-to-end. This involved designing database schemas, setting up relationships, creating their models, and controllers for the endpoints.",
+        "Learned more about blockchain through integration of wallets and working with the ETH chain.",
+        "Leveraged tools such as AWS to run serverless deployments of the application.",
+        "Integrated web APIs into Unity, being able to leverage Unity as a frontend from any backend platform of our choice.",
+      ],
+    },
+    {
+      title: "Backend Developer",
+      company_name: "Wat Street",
+      icon: watstreet,
+      iconBg: "black",
+      date: "September 2023 - Present",
+      points: [
+        "Working on an algorithmic trading app in Python to visualize past data, efficacy of models, and monitor triggers.",
+        "Implementing API endpoints with Flask, to allow users to view real-time financial stock data.",
+        "Collaborating with cross-functional teams including ML, frontend to drive this project to completion.",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
       company_name: "Cognixion",
       icon: cxn,
       iconBg: "#1c2c2c",
@@ -101,7 +128,7 @@
       points: [
         "This was my first co-op during university, this experience helped me gain my first insight on working in the software industry.",
         "I got to work on several automation scripts using Python and make device code changes with C in a Linux environment.",
-        "I participated in Agile methodologies alongside others to complete tasks. this experience helped me gain insight on working in the software industry.",
+        "I participated in Agile methodologies alongside others to complete tasks. This experience helped me gain insight on working in the software industry.",
       ],
     },
     {
