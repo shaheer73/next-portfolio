@@ -95,7 +95,7 @@
       ],
     },
     {
-      title: "Backend Developer",
+      title: "Lead Backend Developer",
       company_name: "Wat Street",
       icon: watstreet,
       iconBg: "black",

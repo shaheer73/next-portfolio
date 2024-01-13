@@ -11,6 +11,7 @@ import taskmaster from '../public/static/assets/projects/taskmaster.png';
 import portfolio from '../public/static/assets/projects/portfolioimg.png';
 import djoggers from '../public/static/assets/projects/djoggers.png';
 import realestate from '../public/static/assets/projects/realestate.png';
+import coupon from '../public/static/assets/projects/coupontracker.png';
 import { SectionWrapper } from '@/hoc';
 import { slideIn, zoomIn } from "../utils/motion";
 import { motion } from "framer-motion";
@@ -27,9 +28,10 @@ const Projects = () => {
             <div className='grid md:grid-cols-3 gap-8 items-center'>
                 <ProjectItem title='Athletic Avenue' image={athletic} projectUrl='/athleticavenue'/>
                 <ProjectItem title='Djoggers' image={djoggers} projectUrl='/djoggers'/>
-                <ProjectItem title='CryptFund' image={cryptfund} projectUrl='/cryptfund'/>
-                <ProjectItem title='TaskMaster' image={taskmaster} projectUrl='/taskmaster'/>
                 <ProjectItem title='Real Estate Price Predictor' image={realestate} projectUrl='/realestate'/>
+                <ProjectItem title='CryptFund' image={cryptfund} projectUrl='/cryptfund'/>
+                <ProjectItem title='Coupon Geotracker' image={coupon} projectUrl='/coupongeotracker'/>
+                <ProjectItem title='TaskMaster' image={taskmaster} projectUrl='/taskmaster'/>
                 <ProjectItem title='Personal Website' image={portfolio} projectUrl='/portfolio'/>
                 <ProjectItem title="Word's World" image={wordgame} projectUrl='/wordgame'/>
                 <ProjectItem title='NBA Player Tracker' image={playertracker} projectUrl='/playertracker'/>
