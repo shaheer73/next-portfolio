@@ -87,7 +87,7 @@
       title: "Software Engineer Intern",
       company_name: "Carta",
       icon: carta,
-      iconBg: "black",
+      iconBg: "#fcf9f4",
       date: "May 2024 - August 2024",
       points: [
         "Led end-to-end overhaul of fintech product to assist law firms in closing fundraises for startups.",
@@ -100,7 +100,7 @@
       title: "Research Assistant",
       company_name: "University of Waterloo",
       icon: uw,
-      iconBg: "black",
+      iconBg: "white",
       date: "January 2024 - April 2024",
       points: [
         "Researched error prevention in Java to prototype semantic search and SARIF file support with Dr. Werner Dietl.",
