@@ -4,6 +4,8 @@
   import waterloop from '../public/static/assets/company/waterloop.jpeg';
   import reblink from '../public/static/assets/company/reblink.png';
   import watstreet from '../public/static/assets/company/watstreet.jpeg';
+  import carta from '../public/static/assets/company/carta.jpeg';
+  import uw from '../public/static/assets/company/uw.png';
 
   const technologies = [
     {
@@ -81,6 +83,29 @@
   ];
   
   const experiences = [
+    {
+      title: "Software Engineer Intern",
+      company_name: "Carta",
+      icon: carta,
+      iconBg: "black",
+      date: "May 2024 - August 2024",
+      points: [
+        "Led end-to-end overhaul of fintech product to assist law firms in closing fundraises for startups.",
+        "Worked directly with clients (lawyers), business developers, designers, product managers to drive project to completion.",
+        "Utilized Django in unison with Domain Driven Design to build out backend and isolate business logic",
+        "Built out frontend using TypeScript and React, with numerous jest-tests to significantly increase code coverage.",
+      ],
+    },
+    {
+      title: "Research Assistant",
+      company_name: "University of Waterloo",
+      icon: uw,
+      iconBg: "black",
+      date: "January 2024 - April 2024",
+      points: [
+        "Researched error prevention in Java to prototype semantic search and SARIF file support with Dr. Werner Dietl.",
+      ],
+    },
     {
       title: "Software Engineer Intern",
       company_name: "ReBlink",
